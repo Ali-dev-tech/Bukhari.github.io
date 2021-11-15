@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
+    <script src="https://kit.fontawesome.com/73f6a8d89f.js" crossorigin="anonymous"></script>
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <title>Bukhari Tours</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="logo.png" alt="LOGO">
+                </a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link">Gallery</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="book.html" class="nav-link current">Book</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <main class= "" data-aos="fade-right">
+
+    <p style="text-align: center; font-size: 50px; padding: 10rem;">FORM AREA</p>
+    <section class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-brand">
+                    <a href="index.html" class="logo">
+                        <img class="logo-image" src="logo.png" alt="logo">
+                    </a>
+                    <div class="paragraph">
+                        <p><i class="fas fa-phone-square-alt"></i>
+                            For inquiries call us at +44 7415 480335</p>
+                        <a style="text-decoration: none;
+            color: #fff;" href="mailt:BukhariTours1@gmail.com"><i class="fas fa-envelope"></i>
+                            Mail us at BukhariTours1@gmail.com</a>
+                    </div>
+                </div>
+                <div class="social-media-wrap">
+                    <h4 class="footer-heading">Follow us</h4>
+                    <div class="social-media">
+                        <a href="#" class="sm-link"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.facebook.com/BukhariTv" target="blank" class="sm-link"><i
+                                class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/rawdahumrah/" target="blank" class="sm-link"><i
+                                class="fab fa-instagram"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+    <footer style="background: #350a4f;">
+        <div class="container">
+            <h1 style="color: #fff; text-align: center; font-weight: normal;">DEVELOPED BY:
+                <span><a class="credit" href="https://www.instagram.com/neotechservices/"
+                        target="blank">NEOTECH</a></span>
+            </h1>
+        </div>
+    </footer>
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--Whatsapp-icon-->
+    <a href="https://wa.me/447415480335?text=Assalamualikum I'm%20interested%20in%20the%20Umrah%20trip" target="blank"
+        class="whatsapp">
+        <i class="fab fa-whatsapp whatsapp__icon"></i>
+    </a>
+
+    
+    <script defer src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+        $(document).ready(function (e) {
+            $('.item').click(function (e) {
+                if ($(this).next('.item-data').css('display') != 'block') {
+                    $('.new').slideUp('fast').removeClass('new');
+                    $(this).next('.item-data').addClass('new').slideDown('slow');
+                } else {
+                    $('.new').slideUp('fast').removeClass('new');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
